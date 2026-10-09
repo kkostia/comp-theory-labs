@@ -1,32 +1,27 @@
-## Assesment Submission for Computational Theory 
+# Computational Theory
 
-This repository contains my submission for the Computational Theory.
-The project is written in a single Jupyter notebook, in Python.
-Everything needed to run is included in this repository.
+This is my project for the Computational Theory module at ATU Galway.
+I am building SHA-256 step by step using Python and NumPy, with short explanations and examples in a Jupyter notebook.
 
-## Running the Notebook
+The work is in `problems.ipynb`. It is still in progress.
 
-In order to run "problems.ipynb" you can follow these steps:
+## How to run
 
-1. Ensure you have [Python](https://www.python.org/) installed. An easiest way to get python is to use this command in Powershell:
-Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.x.x/python-3.x.x-amd64.exe" -OutFile "python-installer.exe"
-2. Clone the repository using
-   git clone https://github.com/kkostia/comp-theory-labs.git
-3. Go to the folder where repository cloned to
-  cd ...
-4. Install all the dependencies using
-  pip install -r requirements.txt
-5. To be continued..
+Install [Python](https://www.python.org/) and [Git](https://git-scm.com/), then run:
+
+```sh
+git clone https://github.com/kkostia/comp-theory-labs.git
+cd comp-theory-labs
+python -m pip install -r requirements.txt
+jupyter notebook problems.ipynb
+```
+
+In Jupyter, run the cells from top to bottom.
 
 ## Dependencies
 
-The notebook depends on the .... packages
+- NumPy
+- Jupyter Notebook
+- ipykernel
 
-
-## About the Notebook
-
-The notebook focuses on...
-
-## About the Author
-
-I am a final year student on...
+The tasks and course notes are in the [module repository](https://github.com/ianmcloughlin/computational-theory).
