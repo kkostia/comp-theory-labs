@@ -5,6 +5,17 @@ I am building SHA-256 step by step using Python and NumPy, with short explanatio
 
 The work is in `problems.ipynb`. It is still in progress.
 
+## Progress
+
+| Task | Status | Issue |
+| --- | --- | --- |
+| Data representations | Complete | [#1](https://github.com/kkostia/comp-theory-labs/issues/1) |
+| Bitwise functions | Not started | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
+| Round constants | Not started | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
+| Message padding and blocks | Not started | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
+| Compression function | Not started | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
+| Full SHA-256 | Not started | [#6](https://github.com/kkostia/comp-theory-labs/issues/6) |
+
 ## How to run
 
 Install [Python](https://www.python.org/) and [Git](https://git-scm.com/), then run:
@@ -24,4 +35,6 @@ In Jupyter, run the cells from top to bottom.
 - Jupyter Notebook
 - ipykernel
 
-The tasks and course notes are in the [module repository](https://github.com/ianmcloughlin/computational-theory).
+## Author
+
+Kostiantyn Panasenko — g00436001
