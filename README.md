@@ -10,7 +10,7 @@ The work is in `problems.ipynb`. It is still in progress.
 | Task | Status | Issue |
 | --- | --- | --- |
 | Data representations | Complete | [#1](https://github.com/kkostia/comp-theory-labs/issues/1) |
-| Bitwise functions | Not started | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
+| Bitwise functions | In progress | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
 | Round constants | Not started | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
 | Message padding and blocks | Not started | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
 | Compression function | Not started | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
