@@ -11,7 +11,7 @@ The work is in `problems.ipynb`. It is still in progress.
 | --- | --- | --- |
 | Data representations | Complete | [#1](https://github.com/kkostia/comp-theory-labs/issues/1) |
 | Bitwise functions | Complete | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
-| Round constants | In progress | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
+| Round constants | Complete | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
 | Message padding and blocks | Not started | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
 | Compression function | Not started | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
 | Full SHA-256 | Not started | [#6](https://github.com/kkostia/comp-theory-labs/issues/6) |
