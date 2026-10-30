@@ -66,7 +66,7 @@ In Jupyter, run the cells from top to bottom, because later problems use functio
 ## Use of AI
 
 I used [ChatGPT](https://chatgpt.com/) to help with Problem 1.
-I used [Claude](https://claude.ai/) to review Problems 1 to 3, add code comments, add the plain Python check for the sigma functions, change how the constants are printed, write the notebook introduction, and tidy this README.
+I used [Claude](https://claude.ai/) to review Problems 1 to 3, add the plain Python check for the sigma functions, change how the constants are printed and tidy this README.
 
 ## Author
 
