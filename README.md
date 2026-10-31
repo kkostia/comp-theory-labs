@@ -62,14 +62,15 @@ In Jupyter, run the cells from top to bottom, because later problems use functio
 - [NumPy scalar types](https://numpy.org/doc/stable/reference/arrays.scalars.html): how `uint32` works.
 - [Python `int` methods](https://docs.python.org/3/library/stdtypes.html#int.from_bytes): converting between integers and big-endian bytes.
 - [Course notes on prime numbers](https://github.com/ianmcloughlin/computational-theory/blob/main/notes/prime-numbers.ipynb): the approach I followed for `primes(n)`.
-- [MD4 (RFC 1320)](https://www.rfc-editor.org/rfc/rfc1320): an older hash, used to compare byte order.
+- [MD4 (RFC 1320)](https://www.rfc-editor.org/rfc/rfc1320): an older hash, used to compare byte order and the `F` and `G` functions.
 - [UTF-8 (RFC 3629)](https://www.rfc-editor.org/rfc/rfc3629): how many bytes a character takes.
+- [Gilbert and Handschuh, Security Analysis of SHA-256 and Sisters](https://doi.org/10.1007/978-3-540-24654-1_13): an analysis of SHA-256 and weak simplified versions.
 
 ## Use of AI
 
 I used [ChatGPT](https://chatgpt.com/) to help with Problem 1.
 I used [Claude](https://claude.ai/) to review Problems 1 to 3, add the plain Python check for the sigma functions, change how the constants are printed and tidy this README.
-I also used Claude to find sources and draft the research notes in Problem 1.
+I also used Claude to find sources and draft the research notes in Problems 1 and 2, including the linearity check.
 
 ## Author
 
