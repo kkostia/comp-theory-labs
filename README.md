@@ -64,13 +64,18 @@ In Jupyter, run the cells from top to bottom, because later problems use functio
 - [Course notes on prime numbers](https://github.com/ianmcloughlin/computational-theory/blob/main/notes/prime-numbers.ipynb): the approach I followed for `primes(n)`.
 - [MD4 (RFC 1320)](https://www.rfc-editor.org/rfc/rfc1320): an older hash, used to compare byte order and the `F` and `G` functions.
 - [UTF-8 (RFC 3629)](https://www.rfc-editor.org/rfc/rfc3629): how many bytes a character takes.
+- [MD5 (RFC 1321)](https://www.rfc-editor.org/rfc/rfc1321): another hash whose constants come from a known formula.
 - [Gilbert and Handschuh, Security Analysis of SHA-256 and Sisters](https://doi.org/10.1007/978-3-540-24654-1_13): an analysis of SHA-256 and weak simplified versions.
+- [Nothing-up-my-sleeve number](https://en.wikipedia.org/wiki/Nothing-up-my-sleeve_number): why constants like these are used.
+- [Bernstein et al., How to manipulate curve standards](https://ia.cr/2014/571): the limits of that idea.
+- [Python floating point tutorial](https://docs.python.org/3/tutorial/floatingpoint.html): the 53 bits of precision in a float.
+- [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes): a faster way to find primes.
 
 ## Use of AI
 
 I used [ChatGPT](https://chatgpt.com/) to help with Problem 1.
 I used [Claude](https://claude.ai/) to review Problems 1 to 3, add the plain Python check for the sigma functions, change how the constants are printed and tidy this README.
-I also used Claude to find sources and draft the research notes in Problems 1 and 2, including the linearity check.
+I also used Claude to find sources and draft the research notes in Problems 1 to 3, including the linearity and float precision checks.
 
 ## Author
 
