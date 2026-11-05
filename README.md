@@ -12,7 +12,6 @@ The work is still in progress.
 - [How to run](#how-to-run)
 - [Dependencies](#dependencies)
 - [References](#references)
-- [Use of AI](#use-of-ai)
 - [Author](#author)
 
 ## Repository structure
@@ -31,7 +30,7 @@ The work is still in progress.
 | 1 | Data representations | Complete | [#1](https://github.com/kkostia/comp-theory-labs/issues/1) |
 | 2 | Bitwise functions | Complete | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
 | 3 | Round constants | Complete | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
-| 4 | Message padding and blocks | Not started | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
+| 4 | Message padding and blocks | In progress | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
 | 5 | Compression function | Not started | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
 | 6 | Full SHA-256 | Not started | [#6](https://github.com/kkostia/comp-theory-labs/issues/6) |
 
@@ -71,12 +70,8 @@ In Jupyter, run the cells from top to bottom, because later problems use functio
 - [Python floating point tutorial](https://docs.python.org/3/tutorial/floatingpoint.html): the 53 bits of precision in a float.
 - [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes): a faster way to find primes.
 
-## Use of AI
-
-I used [ChatGPT](https://chatgpt.com/) to help with Problem 1.
-I used [Claude](https://claude.ai/) to review Problems 1 to 3, add the plain Python check for the sigma functions, change how the constants are printed and tidy this README.
-I also used Claude to find sources and draft the research notes in Problems 1 to 3, including the linearity and float precision checks.
-
 ## Author
 
 Kostiantyn Panasenko — g00436001
+
+AI assistance tools (ChatGPT and Claude) were used during this project.
