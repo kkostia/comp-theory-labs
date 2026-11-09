@@ -30,7 +30,7 @@ The work is still in progress.
 | 1 | Data representations | Complete | [#1](https://github.com/kkostia/comp-theory-labs/issues/1) |
 | 2 | Bitwise functions | Complete | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
 | 3 | Round constants | Complete | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
-| 4 | Message padding and blocks | In progress | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
+| 4 | Message padding and blocks | Complete | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
 | 5 | Compression function | Not started | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
 | 6 | Full SHA-256 | Not started | [#6](https://github.com/kkostia/comp-theory-labs/issues/6) |
 
@@ -69,6 +69,11 @@ In Jupyter, run the cells from top to bottom, because later problems use functio
 - [Bernstein et al., How to manipulate curve standards](https://ia.cr/2014/571): the limits of that idea.
 - [Python floating point tutorial](https://docs.python.org/3/tutorial/floatingpoint.html): the 53 bits of precision in a float.
 - [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes): a faster way to find primes.
+- [Real Python: generators and `yield`](https://realpython.com/introduction-to-python-generators/): how `block_parse` gives one block at a time.
+- [Course notes on padding](https://github.com/ianmcloughlin/computational-theory/blob/main/notes/padding.ipynb): reading data in 64-byte blocks with a generator.
+- [Merkle–Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction): the block-by-block design SHA-256 follows.
+- [Damgård, A Design Principle for Hash Functions](https://doi.org/10.1007/0-387-34805-0_21) and [Merkle, One Way Hash Functions and DES](https://doi.org/10.1007/0-387-34805-0_40): why the length is added in the padding.
+- [Length extension attack](https://en.wikipedia.org/wiki/Length_extension_attack) and [HMAC (RFC 2104)](https://www.rfc-editor.org/rfc/rfc2104): what the padding does not protect against.
 
 ## Author
 
