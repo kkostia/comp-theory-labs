@@ -45,7 +45,13 @@ python -m pip install -r requirements.txt
 jupyter notebook problems.ipynb
 ```
 
-In Jupyter, run the cells from top to bottom, because later problems use functions from earlier ones.
+If the `jupyter` command is not found, Jupyter is installed but not on your `PATH`. Start it through Python instead:
+
+```sh
+python -m notebook problems.ipynb
+```
+
+In Jupyter, choose **Kernel → Restart Kernel and Run All Cells**. The cells must run from top to bottom, because later problems use functions from earlier ones. The whole notebook runs in a few seconds.
 
 ## Dependencies
 
