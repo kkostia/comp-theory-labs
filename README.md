@@ -31,7 +31,7 @@ The work is still in progress.
 | 2 | Bitwise functions | Complete | [#2](https://github.com/kkostia/comp-theory-labs/issues/2) |
 | 3 | Round constants | Complete | [#3](https://github.com/kkostia/comp-theory-labs/issues/3) |
 | 4 | Message padding and blocks | Complete | [#4](https://github.com/kkostia/comp-theory-labs/issues/4) |
-| 5 | Compression function | Not started | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
+| 5 | Compression function | In progress | [#5](https://github.com/kkostia/comp-theory-labs/issues/5) |
 | 6 | Full SHA-256 | Not started | [#6](https://github.com/kkostia/comp-theory-labs/issues/6) |
 
 ## How to run
